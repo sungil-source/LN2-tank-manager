@@ -1,0 +1,17 @@
+{
+  "name": "LN2 Tank Manager",
+  "short_name": "LN2 Manager",
+  "description": "실험실 액체질소(LN2) 탱크 세포주 재고 관리 및 구글 시트 연동 시스템",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090d16",
+  "theme_color": "#0284c7",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

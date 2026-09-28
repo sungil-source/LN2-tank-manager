@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0891b2" />
+      <stop offset="50%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#082f49" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Rounded App Icon Square -->
+  <rect x="24" y="24" width="464" height="464" rx="108" fill="url(#bgGrad)" stroke="#38bdf8" stroke-width="12" stroke-opacity="0.4" filter="url(#shadow)" />
+
+  <!-- Inner subtle border glow -->
+  <rect x="36" y="36" width="440" height="440" rx="96" fill="none" stroke="#ffffff" stroke-width="4" stroke-opacity="0.25" />
+
+  <!-- LN2 text with stylized subscript 2 -->
+  <g fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="900" text-anchor="middle">
+    <text x="215" y="285" font-size="210" letter-spacing="-10">LN</text>
+    <text x="365" y="325" font-size="140" letter-spacing="-4">2</text>
+  </g>
+</svg>

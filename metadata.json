@@ -1,0 +1,6 @@
+{
+  "name": "LN2 Tank Manager",
+  "description": "실험실 액체질소(LN2) 탱크 세포주 재고 관리 및 구글 시트 연동 시스템",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
